@@ -1,0 +1,208 @@
+/*Start Main Rulez */
+
+body {
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #D20707;
+}
+
+
+/*End Main Rulez*/
+
+
+/* Start Bootstrap Edits */
+
+.navbar-inverse {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+    padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 1em;
+    color: #D10024;
+}
+
+.dropdown-menu {
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.dropdown-menu {
+    color: #FFF;
+    background-color: #D10024;
+}
+
+.dropdown-menu>li>a {
+    color: #FFF;
+    padding: 10px 15px;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    color: #FFF;
+    background-color: #790418;
+}
+
+.form-control {
+    position: relative;
+}
+
+
+/* End Bootstrap Edits */
+
+
+/* Start Dashboard Page */
+
+.home-stats .stat {
+    color: #FFF;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 5px
+}
+
+.home-stats .stat a {
+    color: #FFF
+}
+
+.home-stats .stat a:hover {
+    text-decoration: none;
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 50px;
+}
+
+.home-stats .st-post {
+    background-color: #3498db
+}
+
+.home-stats .st-film {
+    background-color: #c0392b
+}
+
+.home-stats .st-program {
+    background-color: #d35400
+}
+
+.home-stats .st-audio {
+    background-color: #8e44ad
+}
+
+.latest {
+    margin-top: 30px;
+    color: #000
+}
+
+.latest .panel-heading {
+    background-color: #333;
+    color: #FFF;
+}
+
+.home-stats .stat {
+    font-size: 24px;
+}
+
+
+/* End Members Page */
+
+
+/* Start Members Page */
+
+h1 {
+    margin: 40px 0;
+    color: #666;
+}
+
+.show-pass {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+
+.main-table {
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+}
+
+.main-table td {
+    background-color: #FFF;
+    vertical-align: middle !important;
+}
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #FFF;
+}
+
+.main-table .btn {
+    padding: 3px 10px;
+}
+
+
+/* End Members Page */
+
+
+/* Start Feedback Page */
+
+.feedback .feed {
+    margin: 0 0 10px;
+}
+
+.feedback .feed h3 {
+    margin-bottom: 0px;
+}
+
+.feedback .feed h6 {
+    margin-top: 0px;
+    margin-left: 7px;
+}
+
+.feedback .feed p {
+    margin-left: 15px;
+}
+
+.feedback .feed:last-of-type~hr {
+    display: none;
+}
+
+
+/* End Feedback Page */
+
+#myInput {
+    /* background-image: url('Layout/images/search.png'); */
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #06659b;
+    margin-bottom: 12px;
+    margin-left: 210px;
+    border-radius: 15px
+}
+
+.search:hover,
+.search:focus,
+.search:active {
+    border: 1px solid #06659b;
+    border-radius: 15px
+}
