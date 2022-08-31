@@ -19,3 +19,5 @@
 ## PHP back-end
 ## html,css,bootstrap front-end
 ## mysql database
+
+# side note : site is NOT fully validated for the short time and i hope you like it :).
